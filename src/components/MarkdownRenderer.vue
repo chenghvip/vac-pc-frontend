@@ -181,7 +181,7 @@ export default {
   overflow-x: auto;
 }
 
-/* 修改，111ddddd为表格添11111加一个滚动容器 */
+/* 修改，111ddddd为表格添1111212121211加一个滚动容器 */
 .markdown-renderer :deep(.table-container) {
   overflow-x: auto;
   width: 100%;
