@@ -173,7 +173,7 @@ export default {
 </script>
 
 <style scoped>
-/* 修改这部分，11121212121222代码块样式*/
+/* 修改这部分，1212121代码块样式*/
 .markdown-renderer :deep(.hljs) {
   background: #f6f8fa;
   padding: 0.5em;
@@ -181,7 +181,7 @@ export default {
   overflow-x: auto;
 }
 
-/* 修改，为表格添加一个滚动容器 */
+/* 修改，111为表格添加一个滚动容器 */
 .markdown-renderer :deep(.table-container) {
   overflow-x: auto;
   width: 100%;
