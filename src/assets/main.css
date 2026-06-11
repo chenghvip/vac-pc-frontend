@@ -1,0 +1,46 @@
+@import './base.css';
+@import 'highlight.js/styles/github.css';
+
+#app {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-weight: normal;
+}
+
+
+a,
+.green {
+  text-decoration: none;
+  color: #67c23a;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.el-message--latest-dialog {
+  background: #2a2a2a !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 0 !important;
+  top: 50% !important;
+}
+.el-message--latest-dialog .el-message__content {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px 10px 0px;
+  font-size: 14px;
+  color: #ffffff !important;
+  font-weight: 300;
+}
+.el-message--latest-dialog .el-message__icon {
+  margin-left: 14px !important;
+  font-size: 14px;
+  color: #67c23a !important; /* 绿色对勾 */
+}
